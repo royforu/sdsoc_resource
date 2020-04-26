@@ -1,0 +1,806 @@
+
+libsds_lib.so:     file format elf32-little
+
+SYMBOL TABLE:
+00000114 l    d  .note.gnu.build-id	00000000              .note.gnu.build-id
+00000138 l    d  .gnu.hash	00000000              .gnu.hash
+000008ec l    d  .dynsym	00000000              .dynsym
+00001a0c l    d  .dynstr	00000000              .dynstr
+00002bd6 l    d  .gnu.version	00000000              .gnu.version
+00002dfc l    d  .gnu.version_r	00000000              .gnu.version_r
+00002e2c l    d  .rel.dyn	00000000              .rel.dyn
+00002f2c l    d  .rel.plt	00000000              .rel.plt
+000032dc l    d  .init	00000000              .init
+000032e8 l    d  .plt	00000000              .plt
+00003884 l    d  .text	00000000              .text
+0000e160 l    d  .fini	00000000              .fini
+0000e168 l    d  .rodata	00000000              .rodata
+00010674 l    d  .ARM.exidx	00000000              .ARM.exidx
+0001067c l    d  .eh_frame	00000000              .eh_frame
+00020f18 l    d  .init_array	00000000              .init_array
+00020f1c l    d  .fini_array	00000000              .fini_array
+00020f20 l    d  .dynamic	00000000              .dynamic
+00021000 l    d  .got	00000000              .got
+00021230 l    d  .data	00000000              .data
+00021298 l    d  .bss	00000000              .bss
+00000000 l    d  .comment	00000000              .comment
+00000000 l    d  .ARM.attributes	00000000              .ARM.attributes
+00000000 l    d  .debug_frame	00000000              .debug_frame
+00000000 l    df *ABS*	00000000              /proj/xbuilds/2019.1_0524_0030/installs/lin64/SDK/2019.1/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o
+00003884 l       .text	00000000              $a
+00003884 l     F .text	00000000              call_weak_fn
+000038a0 l       .text	00000000              $d
+000032dc l       .init	00000000              $a
+0000e160 l       .fini	00000000              $a
+00000000 l    df *ABS*	00000000              /proj/xbuilds/2019.1_0524_0030/installs/lin64/SDK/2019.1/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+000032e4 l       .init	00000000              $a
+0000e164 l       .fini	00000000              $a
+00000000 l    df *ABS*	00000000              crtstuff.c
+000038a8 l       .text	00000000              $a
+000038a8 l     F .text	00000000              deregister_tm_clones
+000038dc l       .text	00000000              $d
+000038ec l       .text	00000000              $a
+000038ec l     F .text	00000000              register_tm_clones
+0000392c l       .text	00000000              $d
+00021230 l       .data	00000000              $d
+0000393c l       .text	00000000              $a
+0000393c l     F .text	00000000              __do_global_dtors_aux
+00003990 l       .text	00000000              $d
+00021298 l     O .bss	00000001              completed.10731
+00020f1c l       .fini_array	00000000              $d
+00020f1c l     O .fini_array	00000000              __do_global_dtors_aux_fini_array_entry
+000039a4 l       .text	00000000              $a
+000039a4 l     F .text	00000000              frame_dummy
+00020f18 l       .init_array	00000000              $d
+00020f18 l     O .init_array	00000000              __frame_dummy_init_array_entry
+00021298 l       .bss	00000000              $d
+00000000 l    df *ABS*	00000000              sds_lib.c
+000039a8 l       .text	00000000              $a
+00003a8c l       .text	00000000              $d
+0002129c l     O .bss	00002000              qPool
+00003a9c l       .text	00000000              $a
+00003b70 l       .text	00000000              $d
+00003b88 l       .text	00000000              $a
+00003ca4 l       .text	00000000              $d
+00003cbc l       .text	00000000              $a
+00003d34 l       .text	00000000              $d
+00003d3c l       .text	00000000              $a
+00003d50 l       .text	00000000              $d
+0002129c l       .bss	00000000              $d
+0000e168 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              cf_lib.c
+00003d58 l       .text	00000000              $a
+00003d58 l     F .text	00000004              free_iovec
+00003e30 l       .text	00000000              $d
+00003e34 l       .text	00000000              $a
+00003f28 l       .text	00000000              $d
+00003f2c l       .text	00000000              $a
+0000406c l       .text	00000000              $d
+0000407c l       .text	00000000              $a
+0000e280 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              cf_request.c
+000044b4 l       .text	00000000              $a
+00004544 l       .text	00000000              $d
+00004550 l       .text	00000000              $a
+00004630 l       .text	00000000              $d
+0000463c l       .text	00000000              $a
+000046c0 l       .text	00000000              $d
+0000e290 l       .rodata	00000000              $d
+0000e290 l     O .rodata	00000011              __PRETTY_FUNCTION__.6472
+0000e2a4 l     O .rodata	0000001f              __PRETTY_FUNCTION__.6491
+0000e2c4 l     O .rodata	00000010              __PRETTY_FUNCTION__.6500
+0000e2d4 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              cf_util.c
+000046cc l       .text	00000000              $a
+000046cc l     F .text	00000004              send_iov_done
+000046d0 l     F .text	000000a8              copy_receive_iov
+00004778 l     F .text	0000007c              copy_send_iov
+000047f4 l     F .text	00000110              receive_iov_done
+000048f8 l       .text	00000000              $d
+00004904 l       .text	00000000              $a
+00004a70 l       .text	00000000              $d
+00004a74 l       .text	00000000              $a
+00004cb0 l       .text	00000000              $d
+0000e36c l       .rodata	00000000              $d
+0000e36c l     O .rodata	00000011              __PRETTY_FUNCTION__.6701
+0000e380 l     O .rodata	00000011              __PRETTY_FUNCTION__.6743
+0000e394 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              axi_dma_sg_dm.c
+00004cc0 l       .text	00000000              $a
+00004cc0 l     F .text	000000c0              axi_dma_sg_wait
+00004d74 l       .text	00000000              $d
+00004d80 l       .text	00000000              $a
+00004ef4 l       .text	00000000              $d
+00004f04 l       .text	00000000              $a
+00005114 l       .text	00000000              $d
+0000512c l       .text	00000000              $a
+000052a8 l       .text	00000000              $d
+00021234 l       .data	00000000              $d
+00021234 l     O .data	00000008              axi_dma_sg_request_handlers
+0000e424 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              axi_lite_dm.c
+000052c0 l       .text	00000000              $a
+000052c0 l     F .text	0000000c              axi_lite_always_write_status
+000052cc l     F .text	00000010              axi_lite_always_read_status
+000052dc l     F .text	00000020              axi_lite_write_status
+000052fc l     F .text	0000002c              axi_lite_idle_read_status
+00005328 l     F .text	00000030              axi_lite_read_status
+00005358 l     F .text	0000021c              axi_lite_wait
+00005568 l       .text	00000000              $d
+00005574 l       .text	00000000              $a
+000056b4 l       .text	00000000              $d
+000056dc l       .text	00000000              $a
+000057a4 l       .text	00000000              $d
+000057b8 l       .text	00000000              $a
+00005968 l       .text	00000000              $d
+0002123c l       .data	00000000              $d
+0002123c l     O .data	00000008              axi_lite_request_handlers
+0000e54c l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              axi_fifo_dm.c
+00005980 l       .text	00000000              $a
+00005980 l     F .text	00000010              axi_fifo_send_wait
+00005990 l     F .text	00000234              axi_fifo_recv_wait
+00005bb8 l       .text	00000000              $d
+00005bc4 l       .text	00000000              $a
+00005cb0 l       .text	00000000              $d
+00005cd4 l       .text	00000000              $a
+00005f18 l       .text	00000000              $d
+00005f30 l       .text	00000000              $a
+00005ff4 l       .text	00000000              $d
+0000e70c l       .rodata	00000000              $d
+0000e70c l     O .rodata	0000000e              __func__.8041
+0000e71c l     O .rodata	0000000e              __func__.8082
+00021244 l       .data	00000000              $d
+00021244 l     O .data	00000008              axi_fifo_send_request_handlers
+0002124c l     O .data	00000008              axi_fifo_recv_request_handlers
+0000e72c l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              zero_copy_dm.c
+00006008 l       .text	00000000              $a
+00006008 l     F .text	0000000c              zero_copy_always_write_status
+00006014 l     F .text	00000020              zero_copy_write_status
+00006034 l     F .text	00000140              zero_copy_wait
+00006164 l       .text	00000000              $d
+00006174 l       .text	00000000              $a
+00006240 l       .text	00000000              $d
+00006254 l       .text	00000000              $a
+000063b0 l       .text	00000000              $d
+00021254 l       .data	00000000              $d
+00021254 l     O .data	00000008              zero_copy_request_handlers
+0000e844 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              axi_dma_simple_dm.c
+000063c4 l       .text	00000000              $a
+000063c4 l     F .text	000001c8              axi_dma_simple_wait
+0000656c l       .text	00000000              $d
+0000658c l       .text	00000000              $a
+000065fc l       .text	00000000              $d
+00006600 l       .text	00000000              $a
+000067b0 l       .text	00000000              $d
+000067c8 l       .text	00000000              $a
+0000693c l       .text	00000000              $d
+0002125c l       .data	00000000              $d
+0002125c l     O .data	00000008              axi_dma_simple_request_handlers
+0000e95c l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              fast_dma_dm.c
+00006954 l       .text	00000000              $a
+00006954 l     F .text	000000fc              fast_dma_receive_wait
+00006a44 l       .text	00000000              $d
+00006a50 l       .text	00000000              $a
+00006a50 l     F .text	000000cc              fast_dma_send_wait
+00006b10 l       .text	00000000              $d
+00006b1c l       .text	00000000              $a
+00006b8c l       .text	00000000              $d
+00006b90 l       .text	00000000              $a
+00006eb4 l       .text	00000000              $d
+00006ed4 l       .text	00000000              $a
+0000723c l       .text	00000000              $d
+00021264 l       .data	00000000              $d
+00021264 l     O .data	00000008              fast_dma_receive_request_handlers
+0002126c l     O .data	00000008              fast_dma_send_request_handlers
+0000eb68 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              axi_dma_2d_dm.c
+0000725c l       .text	00000000              $a
+0000725c l     F .text	00000208              axi_dma_2d_wait
+00007458 l       .text	00000000              $d
+00007464 l       .text	00000000              $a
+00007634 l       .text	00000000              $d
+00007650 l       .text	00000000              $a
+000078a0 l       .text	00000000              $d
+000078b8 l       .text	00000000              $a
+000079e4 l       .text	00000000              $d
+000079f4 l       .text	00000000              $a
+00007c08 l       .text	00000000              $d
+00007c20 l       .text	00000000              $a
+00007cc4 l       .text	00000000              $d
+00007cd0 l       .text	00000000              $a
+00007d98 l       .text	00000000              $d
+00021274 l       .data	00000000              $d
+00021274 l     O .data	00000008              axi_dma_2d_request_handlers
+0000ed28 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              xd_adapter.c
+00007da8 l       .text	00000000              $a
+00007da8 l     F .text	0000000c              accel_axilite_scalar_always_write_status
+00007db4 l     F .text	00000010              accel_axilite_scalar_always_read_status
+00007dc4 l     F .text	00000020              accel_hls_done_check
+00007de4 l     F .text	00000024              accel_adapter_done_check
+00007e08 l     F .text	00000030              accel_axilite_scalar_read_status
+00007e38 l     F .text	00000020              accel_axilite_scalar_write_status
+00007e58 l     F .text	0000002c              accel_axilite_scalar_done_wait_status
+00007e84 l     F .text	00000078              accel_fault_on_check
+00007ee8 l       .text	00000000              $d
+00007efc l       .text	00000000              $a
+00007efc l     F .text	00000068              accel_irq_wait
+00007f58 l       .text	00000000              $d
+00007f64 l       .text	00000000              $a
+0000813c l       .text	00000000              $d
+00008174 l       .text	00000000              $a
+0000821c l       .text	00000000              $d
+00008230 l       .text	00000000              $a
+00008de0 l       .text	00000000              $d
+00008f84 l       .text	00000000              $a
+0002127c l       .data	00000000              $d
+0002127c l     O .data	00000008              accel_irq_handlers
+0000ef7c l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              xlnk-config.c
+00009068 l       .text	00000000              $a
+00009090 l       .text	00000000              $d
+00009098 l       .text	00000000              $a
+000090c4 l       .text	00000000              $d
+00000000 l    df *ABS*	00000000              sysport_info.c
+000090cc l       .text	00000000              $a
+000090cc l     F .text	00000008              sysport_release_no_action
+000090d4 l     F .text	00000008              sysport_kern_acquire_no_action
+000090dc l     F .text	00000010              sysport_acquire_phys_is_virt
+000090ec l     F .text	00000034              sysport_release_remote_memory
+00009120 l     F .text	00000024              sysport_acquire_no_action
+00009144 l     F .text	00000060              sysport_acquire_remote_memory
+000091a4 l     F .text	0000006c              sysport_release_non_coherent
+00009210 l     F .text	00000078              sysport_acquire_non_coherent
+00009288 l     F .text	00000008              sysport_kern_acquire_remote_memory
+00009290 l     F .text	00000008              sysport_kern_release_phys_is_virt
+00009298 l     F .text	00000008              sysport_kern_release_remote_memory
+000092a0 l     F .text	00000008              sysport_kern_release_no_action
+000092a8 l     F .text	00000008              sysport_kern_acquire_non_coherent
+000092b0 l     F .text	00000008              sysport_kern_release_non_coherent
+000092b8 l     F .text	00000008              sysport_kern_acquire_iommu
+000092c0 l     F .text	00000008              sysport_kern_release_iommu
+000092c8 l     F .text	00000008              sysport_release_phys_is_virt
+000092d0 l     F .text	00000008              sysport_kern_acquire_phys_is_virt
+000092d8 l     F .text	00000078              sysport_acquire_iommu
+00009350 l     F .text	0000006c              sysport_release_iommu
+00009544 l       .text	00000000              $d
+000095a4 l       .text	00000000              $a
+0000f488 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              pfm_hooks.c
+000095c8 l       .text	00000000              $a
+00000000 l    df *ABS*	00000000              cf_pthread.c
+000095d0 l       .text	00000000              $a
+000095d0 l     F .text	00000038              cf_context_cleanup
+000096bc l       .text	00000000              $d
+000096d0 l       .text	00000000              $a
+000096f0 l       .text	00000000              $d
+0002329c l       .bss	00000000              $d
+0002329c l     O .bss	00000004              context_key
+0000f4dc l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              sds_perf_instrumentation.c
+000096f8 l       .text	00000000              $a
+00009740 l       .text	00000000              $d
+0000974c l       .text	00000000              $a
+000098b4 l       .text	00000000              $d
+000098c0 l       .text	00000000              $a
+0000993c l       .text	00000000              $d
+00009948 l       .text	00000000              $a
+0000998c l       .text	00000000              $d
+00009998 l       .text	00000000              $a
+00009a08 l       .text	00000000              $d
+00009a14 l       .text	00000000              $a
+00009a7c l       .text	00000000              $d
+00009a88 l       .text	00000000              $a
+00009ba8 l       .text	00000000              $d
+00009bcc l       .text	00000000              $a
+00009c28 l       .text	00000000              $d
+00009c30 l       .text	00000000              $a
+00009c8c l       .text	00000000              $d
+00009c94 l       .text	00000000              $a
+00009ce8 l       .text	00000000              $d
+0000f528 l       .rodata	00000000              $d
+0000f528 l     O .rodata	00000009              __PRETTY_FUNCTION__.6802
+0000f534 l     O .rodata	0000000e              __PRETTY_FUNCTION__.6824
+0000f544 l     O .rodata	0000000a              __PRETTY_FUNCTION__.6835
+0000f550 l     O .rodata	0000000a              __PRETTY_FUNCTION__.6841
+000232a0 l       .bss	00000000              $d
+000232a0 l     O .bss	00000004              sw_list_init
+000232a4 l     O .bss	00000004              hw_list_init
+0000f55c l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              sds_trace_linux.c
+00009cf0 l       .text	00000000              $a
+00009e7c l       .text	00000000              $d
+00009e9c l       .text	00000000              $a
+00009ec0 l       .text	00000000              $d
+00009ec8 l       .text	00000000              $a
+00009f1c l       .text	00000000              $d
+00009f2c l       .text	00000000              $a
+00009ff4 l       .text	00000000              $d
+0000a008 l       .text	00000000              $a
+0000a110 l       .text	00000000              $d
+0000a12c l       .text	00000000              $a
+0000a150 l       .text	00000000              $d
+0000a158 l       .text	00000000              $a
+0000a1a4 l       .text	00000000              $d
+0000a1b0 l       .text	00000000              $a
+0000a3d4 l       .text	00000000              $d
+0000a40c l       .text	00000000              $a
+00021284 l       .data	00000000              $d
+00021284 l     O .data	00000004              mapBase
+000232a8 l       .bss	00000000              $d
+000232a8 l     O .bss	00000004              head
+000232ac l     O .bss	00000004              current
+000232b0 l     O .bss	00000008              sds_trace_count
+0000f728 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              xlnk-core.c
+0000a410 l       .text	00000000              $a
+0000a410 l     F .text	00000010              xlnkReconfigCB
+0000a434 l     F .text	00000064              xlnkFileHandle.part.1
+0000a48c l       .text	00000000              $d
+0000a498 l       .text	00000000              $a
+0000a498 l     F .text	00000030              xlnkFindRemoteAllocatorDesc.part.2
+0000a4bc l       .text	00000000              $d
+0000a4c8 l       .text	00000000              $a
+0000a530 l       .text	00000000              $d
+0000a544 l       .text	00000000              $a
+0000a558 l       .text	00000000              $d
+0000a55c l       .text	00000000              $a
+0000a5d8 l       .text	00000000              $d
+0000a5e4 l       .text	00000000              $a
+0000a70c l       .text	00000000              $d
+00103700 l     O .bss	00008000              xlnkBufPool
+000fb700 l     O .bss	00008000              xlnkBufLens
+000f3700 l     O .bss	00008000              xlnkBufPhyPool
+000236fc l     O .bss	00008000              cfMapped
+0000a730 l       .text	00000000              $a
+0000a7e8 l       .text	00000000              $d
+0000a804 l       .text	00000000              $a
+0000a988 l       .text	00000000              $d
+0000a9c4 l       .text	00000000              $a
+0000ab3c l       .text	00000000              $d
+0000ab78 l       .text	00000000              $a
+0000ac38 l       .text	00000000              $d
+0000ac54 l       .text	00000000              $a
+0000acc8 l       .text	00000000              $d
+0000acd0 l       .text	00000000              $a
+0000ae78 l       .text	00000000              $d
+0002b6fc l     O .bss	00008000              xlnkBufLinkId
+0000aeac l       .text	00000000              $a
+0000af40 l       .text	00000000              $d
+0000af54 l       .text	00000000              $a
+0000b008 l       .text	00000000              $d
+0000b020 l       .text	00000000              $a
+0000b180 l       .text	00000000              $d
+0000b1b8 l       .text	00000000              $a
+0000b1d8 l       .text	00000000              $d
+0000b1dc l       .text	00000000              $a
+0000b260 l       .text	00000000              $d
+0000b26c l       .text	00000000              $a
+0000b3d4 l       .text	00000000              $d
+0000b3ec l       .text	00000000              $a
+0000b6c4 l       .text	00000000              $d
+0000b704 l       .text	00000000              $a
+0000b818 l       .text	00000000              $d
+0000b82c l       .text	00000000              $a
+0000b8c8 l       .text	00000000              $d
+0000b8d0 l       .text	00000000              $a
+0000b98c l       .text	00000000              $d
+0000b998 l       .text	00000000              $a
+0000ba04 l       .text	00000000              $d
+0000ba10 l       .text	00000000              $a
+0000bae4 l       .text	00000000              $d
+0000baec l       .text	00000000              $a
+0000bbb8 l       .text	00000000              $d
+0000bbcc l       .text	00000000              $a
+0000bc5c l       .text	00000000              $d
+0000bc70 l       .text	00000000              $a
+0000bd10 l       .text	00000000              $d
+0000bd24 l       .text	00000000              $a
+0000bdf4 l       .text	00000000              $d
+0000be10 l       .text	00000000              $a
+0000be60 l       .text	00000000              $d
+0000be74 l       .text	00000000              $a
+0000bfb0 l       .text	00000000              $d
+0000bfc0 l       .text	00000000              $a
+0000c028 l       .text	00000000              $d
+0000c02c l       .text	00000000              $a
+0000c084 l       .text	00000000              $d
+0000c088 l       .text	00000000              $a
+0000c1a8 l       .text	00000000              $d
+0000c1bc l       .text	00000000              $a
+0000c2b8 l       .text	00000000              $d
+0000c2cc l       .text	00000000              $a
+0000c35c l       .text	00000000              $d
+0000c370 l       .text	00000000              $a
+0000c400 l       .text	00000000              $d
+0000c414 l       .text	00000000              $a
+0000c4ec l       .text	00000000              $d
+0010b710 l     O .bss	00080800              cmd_stream
+0000c50c l       .text	00000000              $a
+0000c558 l       .text	00000000              $d
+0000c560 l       .text	00000000              $a
+0000c644 l       .text	00000000              $d
+0000c660 l       .text	00000000              $a
+0000c6e8 l       .text	00000000              $d
+0000c6fc l       .text	00000000              $a
+0000c804 l       .text	00000000              $d
+0000c828 l       .text	00000000              $a
+0000c910 l       .text	00000000              $d
+0000c918 l       .text	00000000              $a
+0000c998 l       .text	00000000              $d
+0000c9a0 l       .text	00000000              $a
+0000cb38 l       .text	00000000              $d
+0000cb54 l       .text	00000000              $a
+0000cc4c l       .text	00000000              $d
+0000cc6c l       .text	00000000              $a
+0000cd7c l       .text	00000000              $d
+0000cd9c l       .text	00000000              $a
+0000ce04 l       .text	00000000              $d
+0000ce08 l       .text	00000000              $a
+0000ce2c l       .text	00000000              $d
+0000ce38 l       .text	00000000              $a
+0000ced0 l       .text	00000000              $d
+0000cee8 l       .text	00000000              $a
+0000cf04 l       .text	00000000              $d
+0000cf08 l       .text	00000000              $a
+0000d1ec l       .text	00000000              $d
+00073700 l     O .bss	00080000              xlnkRemoteMemPhys
+000336fc l     O .bss	00040000              xlnkRemoteMemFlags
+0000d25c l       .text	00000000              $a
+0000d8e8 l       .text	00000000              $d
+0000f9f4 l       .rodata	00000000              $d
+0000f9f4 l     O .rodata	0000001c              __PRETTY_FUNCTION__.9288
+0000fa10 l     O .rodata	00000016              __PRETTY_FUNCTION__.9411
+0000fa28 l     O .rodata	00000017              __PRETTY_FUNCTION__.9433
+0000fa40 l     O .rodata	0000001b              __PRETTY_FUNCTION__.9284
+00021288 l       .data	00000000              $d
+00021288 l     O .data	00000004              fdMem
+0002128c l     O .data	00000004              xlnkFileFd
+00021290 l     O .data	00000004              memSpaceCount
+000232c0 l       .bss	00000000              $d
+000232c0 l     O .bss	00000004              xlnkBufSpinlock
+000232c4 l     O .bss	00000004              xlnkUsageCount
+000232c8 l     O .bss	00000004              cmd_stream_lock
+000232cc l     O .bss	00000004              xlnkAllocateAxiliteRegion
+000232d0 l     O .bss	00000004              xlnkFreeAxiliteRegion
+000232d4 l     O .bss	00000004              xlnkAxiliteControlData
+000232d8 l     O .bss	00000004              xlnkAxiliteWriteHandler
+000232dc l     O .bss	00000004              xlnkInitAxiliteBatchHandler
+000232e0 l     O .bss	00000004              xlnkAxiliteCommitHandler
+000232e4 l     O .bss	00000004              xlnkAxiliteReadHandler
+000232e8 l     O .bss	00000400              cmd_stream_in_use
+000236e8 l     O .bss	00000004              remoteAllocatorSet
+000236ec l     O .bss	00000004              remoteTransferSet
+0000fa5c l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              xlnk-perf.c
+0000d9e8 l       .text	00000000              $a
+0000dacc l       .text	00000000              $d
+0000dae4 l       .text	00000000              $a
+0000db48 l       .text	00000000              $d
+0000db58 l       .text	00000000              $a
+0000db68 l       .text	00000000              $d
+0000db6c l       .text	00000000              $a
+0000db94 l       .text	00000000              $d
+0018bf10 l       .bss	00000000              $d
+0018bf10 l     O .bss	00000008              xlnkCpuFreq
+0018bf18 l     O .bss	00000004              counterVirtAddr
+0018bf1c l     O .bss	00000004              counterUpperVirtAddr
+0000f854 l       .rodata	00000000              $d
+00000000 l    df *ABS*	00000000              _udivsi3.o
+0000dba0 l       .text	00000000              $a
+0000dba0 l       .text	00000000              .udivsi3_skip_div0_test
+00000000 l       *ABS*	00000000              shift
+00000010 l       .debug_frame	00000000              $d
+00000000 l    df *ABS*	00000000              _divsi3.o
+0000ddac l       .text	00000000              $a
+0000ddb4 l       .text	00000000              .divsi3_skip_div0_test
+00000000 l       *ABS*	00000000              shift
+00000030 l       .debug_frame	00000000              $d
+00000000 l    df *ABS*	00000000              _aeabi_uldivmod.o
+0000dfec l       .text	00000000              $a
+00000000 l    df *ABS*	00000000              _dvmd_lnx.o
+0000007c l       .debug_frame	00000000              $d
+0000e028 l       .text	00000000              $a
+00000000 l    df *ABS*	00000000              libgcc2.c
+0000e038 l       .text	00000000              $a
+00010674 l       .ARM.exidx	00000000              $d
+00000000 l    df *ABS*	00000000              crtstuff.c
+0001067c l       .eh_frame	00000000              $d
+0001067c l     O .eh_frame	00000000              __FRAME_END__
+00000000 l    df *ABS*	00000000              
+0000dfec l     F .text	00000000              __aeabi_uldivmod
+0000dba0 l     F .text	00000000              __aeabi_uidiv
+0000e160 l     F .fini	00000000              _fini
+0000dfcc l     F .text	00000020              __aeabi_idivmod
+0000e028 l     F .text	00000010              __aeabi_ldiv0
+0000dba0 l     F .text	000001ec              __udivsi3
+00021230 l     O .data	00000000              __dso_handle
+0000ddac l     F .text	00000220              __divsi3
+0000e028 l     F .text	00000010              __aeabi_idiv0
+00020f20 l     O *ABS*	00000000              _DYNAMIC
+0000e038 l     F .text	00000128              __udivmoddi4
+0000dd8c l     F .text	00000020              __aeabi_uidivmod
+00021294 l     O .data	00000000              __TMC_END__
+00021000 l     O *ABS*	00000000              _GLOBAL_OFFSET_TABLE_
+0000ddac l     F .text	00000000              __aeabi_idiv
+000032dc l     F .init	00000000              _init
+000032e8 l       .plt	00000000              $a
+000032f8 l       .plt	00000000              $d
+000032fc l       .plt	00000000              $a
+0000b1b8 g     F .text	00000024              xlnkDecrementRef
+00000000       F *UND*	00000000              calloc@@GLIBC_2.4
+00000000       F *UND*	00000000              raise@@GLIBC_2.4
+00007650 g     F .text	0000002c              axi_dma_2d_close
+00009e9c g     F .text	0000002c              sds_trace_reset
+000082ac g     F .text	00000cd8              accel_get_reg_info
+0000baf0 g     F .text	000000dc              xlnkIrqRegister
+00006600 g     F .text	00000024              axi_dma_simple_close
+00003cd4 g     F .text	00000004              sds_register_dmabuf
+00003cd0 g     F .text	00000004              sds_mmap
+000236f0 g     O .bss	00000004              xlnkReconfigHandlerArgs
+0000b3ec g     F .text	00000318              xlnkDMASubmit
+00000000       F *UND*	00000000              strcmp@@GLIBC_2.4
+00000000  w    F *UND*	00000000              __cxa_finalize@@GLIBC_2.4
+00000000       F *UND*	00000000              strtol@@GLIBC_2.4
+00004330 g     F .text	0000002c              cf_receive_ref
+00008194 g     F .text	0000009c              accel_interrupt_open
+00000000  w      *UND*	00000000              _ITM_deregisterTMCloneTable
+0000cf08 g     F .text	00000354              xlnkSyncToLocalMemory
+0000985c g     F .text	00000064              list_for_each
+00003d04 g     F .text	00000004              sds_register_axilite_handlers
+00009068 g     F .text	0000000c              xlnk_config_clear_block
+00000000       F *UND*	00000000              printf@@GLIBC_2.4
+0000a730 g     F .text	000000d4              xlnk_munmap2
+0000a40c g     F .text	00000004              _sds_print_trace
+00003e44 g     F .text	00000008              cf_addressable_free_i
+00003e6c g     F .text	00000008              cf_receive_ref_i
+00000000       F *UND*	00000000              __isoc99_fscanf@@GLIBC_2.7
+00000000       F *UND*	00000000              fopen@@GLIBC_2.4
+0000427c g     F .text	0000003c              cf_getbuf
+0000bd24 g     F .text	000000ec              xlnkConfigureHw
+00000000         *UND*	00000000              pthread_spin_destroy
+0000a008 g     F .text	00000124              sds_trace_setup
+0000412c g     F .text	00000038              cf_send
+00006284 g     F .text	00000008              zero_copy_recv
+000079f4 g     F .text	0000022c              axi_dma_2d_recv2d_i
+0000a5e4 g     F .text	00000018              xlnk_munmap
+00005f38 g     F .text	000000d0              axi_fifo_recv
+00006294 g     F .text	00000130              zero_copy_send_ref_i
+00000000       F *UND*	00000000              free@@GLIBC_2.4
+00004550 g     F .text	00000050              cf_request_prealloc
+00003cf8 g     F .text	0000000c              sds_register_remote_memory_transfer
+0000c560 g     F .text	00000100              xlnkWriteToCmdStream
+00003d08 g     F .text	00000004              sds_register_reconfig_handler
+00006ed4 g     F .text	00000008              fast_dma_send_ref_i
+000039a8 g     F .text	000000f4              sds_insert_req
+00000000       F *UND*	00000000              memcpy@@GLIBC_2.4
+00003e3c g     F .text	00000008              cf_addressable_alloc_i
+0000b704 g     F .text	00000128              xlnkDMAWait
+0000628c g     F .text	00000008              zero_copy_send_i
+00006b1c g     F .text	00000074              fast_dma_open
+00009098 g     F .text	00000008              xlnk_set_config
+00009a14 g     F .text	00000074              add_hw_perf_cluster
+00008230 g     F .text	00000024              accel_interrupt_close
+00003cec g     F .text	00000004              sds_remote_memory_init
+0000be74 g     F .text	0000014c              xlnkUioMap2
+0000a420 g     F .text	00000014              xlnkSyncCallback
+0000ce08 g     F .text	00000030              xlnkRegisterReconfigHandler
+00005bc4 g     F .text	00000110              axi_fifo_open
+0000acd0 g     F .text	000001dc              xlnkAllocBufInternal
+00008174 g     F .text	00000020              accel_close
+0018c158 g     O .bss	00000014              _apf_hw_cluster_list
+00003e64 g     F .text	00000008              cf_receive_i
+0000a1b0 g     F .text	0000025c              sds_trace_cleanup
+00009c94 g     F .text	0000005c              get_sw_latency_for_top_function
+00004d80 g     F .text	00000184              axi_dma_sg_open
+00009948 g     F .text	00000050              list_tail
+00009f2c g     F .text	00000020              _sds_trace_log_SW
+00000000         *UND*	00000000              pthread_getspecific
+0000c9a0 g     F .text	000001b4              xlnkRemoteMemoryInit
+0000bfc0 g     F .text	0000006c              xlnkUioMap
+000042f4 g     F .text	0000003c              cf_receive
+0000407c g     F .text	0000003c              cf_open_internal
+000093bc g     F .text	000001e8              sysport_open
+00004244 g     F .text	00000038              cf_addressable_free
+00004f5c g     F .text	000001d0              axi_dma_sg_send_i
+00006bb4 g     F .text	00000008              fast_dma_recv_ref_i
+0000b8d0 g     F .text	000000c8              xlnkDevRegister
+00003d88 g     F .text	00000008              cf_send_i
+00003d5c g     F .text	00000010              cf_get_status
+0000a4c8 g     F .text	0000007c              xlnk_mmap_init
+000040f4 g     F .text	00000038              cf_send_ref
+00003d10 g     F .text	00000008              sds_local_memory_id
+0000ce38 g     F .text	000000b0              xlnkRegisterMemoryAllocator
+00000000       O *UND*	00000000              stderr@@GLIBC_2.4
+000095c8 g     F .text	00000004              pfm_hook_init
+0000cd9c g     F .text	0000006c              xlnkRegisterAxiliteHandler
+00000000       F *UND*	00000000              fwrite@@GLIBC_2.4
+00000000       F *UND*	00000000              ioctl@@GLIBC_2.4
+0000b1dc g     F .text	00000090              xlnkClose
+0000c850 g     F .text	00000030              xlnkCmdTransferSequential
+0000ac54 g     F .text	00000004              cf_xlnk_open
+00003f44 g     F .text	00000060              cf_try_wait
+00006174 g     F .text	000000e0              zero_copy_open
+0000463c g     F .text	00000090              cf_request_free
+0000af54 g     F .text	000000cc              xlnkGetBufPhyAddrAndCacheable
+0000c2cc g     F .text	000000a4              xlnkFlushCache
+00009998 g     F .text	00000008              list_size
+0000a544 g     F .text	00000018              xlnk_mmap_shutdown
+00000000       F *UND*	00000000              strcpy@@GLIBC_2.4
+0000ab78 g     F .text	000000dc              xlnkOpen
+0000974c g     F .text	00000050              list_destroy
+000099a0 g     F .text	00000074              add_sw_perf_function
+00003d6c g     F .text	00000014              cf_set_status
+00003cc0 g     F .text	00000004              sds_alloc_cacheable
+0000a804 g     F .text	000001c0              xlnk_register_dmabuf
+000044b4 g     F .text	0000009c              cf_request_alloc
+0000c660 g     F .text	0000009c              xlnkEmptyCmdStream
+0000a12c g     F .text	0000002c              sds_trace_stop
+00003ce8 g     F .text	00000004              sds_set_counter
+0000c1bc g     F .text	00000110              xlnkUioRead32
+00009074 g     F .text	00000024              xlnk_init_config
+00003d18 g     F .text	00000024              reset_hw_perf_instr_struct
+0000979c g     F .text	0000005c              list_prepend
+00000000       F *UND*	00000000              puts@@GLIBC_2.4
+00000000         *UND*	00000000              pthread_spin_init
+00000000       F *UND*	00000000              malloc@@GLIBC_2.4
+0000b82c g     F .text	000000a4              xlnkDMARelease
+0000c414 g     F .text	000000f8              xlnkLeaseCmdStream
+00003ce4 g     F .text	00000004              sds_clock_frequency
+000056ec g     F .text	000000cc              axi_lite_recv
+00006edc g     F .text	00000380              fast_dma_send_i
+00005574 g     F .text	00000168              axi_lite_open
+00009a88 g     F .text	00000144              apf_perf_estimation_exit
+00003d3c g     F .text	0000001c              get_hw_perf_instr_struct
+0000c02c g     F .text	0000005c              xlnkUioUnMap
+00000000       F *UND*	00000000              backtrace@@GLIBC_2.4
+000095a4 g     F .text	00000024              sysport_close
+00000000         *UND*	00000000              pthread_key_create
+0000a158 g     F .text	00000058              _sds_print_trace_entry
+0000bbcc g     F .text	000000a4              xlnkIrqUnregister
+00003f2c g     F .text	00000008              cf_receive_iov_i
+00000000  w      *UND*	00000000              __gmon_start__
+0018c16c g     O .bss	00000014              _apf_sw_function_list
+00000000       F *UND*	00000000              open@@GLIBC_2.4
+0010b700 g     O .bss	00000004              xlnkLocalAllocControlData
+00000000       F *UND*	00000000              exit@@GLIBC_2.4
+00000000       F *UND*	00000000              syscall@@GLIBC_2.4
+000040b8 g     F .text	0000003c              cf_close_internal
+00000000         *UND*	00000000              pthread_spin_unlock
+000078b8 g     F .text	0000007c              axi_dma_2d_send_i
+000067c8 g     F .text	00000008              axi_dma_simple_send_ref_i
+0000aeac g     F .text	00000008              xlnkAllocBuf
+0000420c g     F .text	00000038              cf_addressable_alloc
+000042b8 g     F .text	0000003c              cf_setbuf
+0000d25c g     F .text	0000078c              xlnkSyncToRemoteMemory
+000098c0 g     F .text	00000088              list_head
+00000000       F *UND*	00000000              strlen@@GLIBC_2.4
+0000bc70 g     F .text	000000b4              xlnkIrqWait
+00000000       F *UND*	00000000              mmap@@GLIBC_2.4
+0000c0b4 g     F .text	00000108              xlnkUioWrite32
+00003cdc g     F .text	00000004              sds_munmap
+00006bbc g     F .text	00000318              fast_dma_recv_i
+000236f8 g     O .bss	00000004              xlnkReconfigHwHandler
+00004164 g     F .text	00000070              cf_send_2d
+00003aa0 g     F .text	00000004              sds_release_hw
+00006624 g     F .text	00000008              axi_dma_simple_recv_ref_i
+00000000       F *UND*	00000000              fprintf@@GLIBC_2.4
+0000c088 g     F .text	0000002c              xlnkUioUnMap2
+00000000       F *UND*	00000000              getpagesize@@GLIBC_2.4
+0000658c g     F .text	00000074              axi_dma_simple_open
+0018c150 g     O .bss	00000005              system_config
+000056e4 g     F .text	00000008              axi_lite_recv_ref
+00003d80 g     F .text	00000008              cf_send_ref_i
+00003fac g     F .text	000000d0              cf_wait
+00007934 g     F .text	000000c0              axi_dma_2d_send_iov_i
+00007f64 g     F .text	00000008              accel_direct_connection_allocate
+0000b26c g     F .text	00000180              xlnkDMARequest
+00004904 g     F .text	00000170              cf_util_receive_iov
+00004410 g     F .text	000000a4              cf_wait_all
+00000000       F *UND*	00000000              memset@@GLIBC_2.4
+0000ba10 g     F .text	000000dc              xlnkDmaRegister
+00000000       F *UND*	00000000              strncpy@@GLIBC_2.4
+00000000         *UND*	00000000              pthread_setspecific
+000096d0 g     F .text	00000028              cf_context_init
+00003ce0 g     F .text	00000004              sds_clock_counter
+00003d0c g     F .text	00000004              sds_register_memory_allocator
+0000aeb4 g     F .text	000000a0              xlnkGetBufPhyAddr
+00003a9c g     F .text	00000004              sds_reconfigure_hw
+00004f04 g     F .text	00000058              axi_dma_sg_close
+00003ccc g     F .text	00000004              sds_free
+0000662c g     F .text	0000019c              axi_dma_simple_recv_i
+000232bc g     O .bss	00000004              trace_monitor_virt_addr
+0000a9c4 g     F .text	000001b4              xlnk_unregister_dmabuf
+0000627c g     F .text	00000008              zero_copy_recv_ref
+0000c918 g     F .text	00000088              xlnkMemoryRelease
+0018c180 g     O .bss	00001000              _sdsoc_swdata
+00003cf0 g     F .text	00000008              sds_register_remote_memory_allocator
+0000c50c g     F .text	00000054              xlnkFetchCmdStream
+0000db58 g     F .text	00000014              xlnkGetGlobalCounterFrequency
+0000d9e8 g     F .text	000000fc              xlnkCounterMap
+00000000       F *UND*	00000000              access@@GLIBC_2.4
+00007f90 g     F .text	000001e4              accel_open
+00000000       F *UND*	00000000              fclose@@GLIBC_2.4
+0000cb54 g     F .text	00000118              xlnkRegisterRemoteMemoryAllocator
+0018bf20 g     O .bss	00000230              perf_instr_store
+00003d90 g     F .text	000000a4              cf_send_2d_i
+00006b90 g     F .text	00000024              fast_dma_close
+00003b88 g     F .text	00000134              sds_try_wait
+00008f84 g     F .text	000000dc              accel_get_start_seq
+0000c6fc g     F .text	0000012c              xlnkCommitCmdStream
+000045a0 g     F .text	0000009c              cf_request_add_on_free_handler
+00003e54 g     F .text	00000008              cf_setbuf_i
+00000000       F *UND*	00000000              munmap@@GLIBC_2.4
+00000000         *UND*	00000000              pthread_spin_lock
+0000baec g     F .text	00000004              xlnkDmaUnregister
+00005cf4 g     F .text	0000023c              axi_fifo_send
+00005cd4 g     F .text	00000020              axi_fifo_close
+00007684 g     F .text	00000008              axi_dma_2d_send_ref_i
+0000c370 g     F .text	000000a4              xlnkInvalidateCache
+0000b998 g     F .text	00000078              xlnkDevUnregister
+000067d0 g     F .text	00000184              axi_dma_simple_send_i
+000043d4 g     F .text	0000003c              cf_receive_iov
+00007f6c g     F .text	00000024              accel_adapter_has_space
+00007464 g     F .text	000001ec              axi_dma_2d_open
+0010b708 g     O .bss	00000004              xlnkLocalAllocHandler
+0000b020 g     F .text	00000198              xlnkFreeBuf
+00007c20 g     F .text	000000b0              axi_dma_2d_recv_i
+00003e34 g     F .text	00000008              cf_send_iov_i
+00009060 g     F .text	00000008              accel_release_start_seq
+00003cd8 g     F .text	00000004              sds_unregister_dmabuf
+0010b704 g     O .bss	00000004              xlnkLocalFreeHandler
+0000db6c g     F .text	00000034              xlnkSetGlobalCounter
+00003aa4 g     F .text	000000e4              sds_wait
+0000a5fc g     F .text	00000134              xlnk_mmap2
+000057b8 g     F .text	000001c8              axi_lite_send
+0000a55c g     F .text	00000088              xlnk_mmap
+0000be10 g     F .text	00000064              xlnkReleaseHw
+00000000       F *UND*	00000000              sprintf@@GLIBC_2.4
+000232b8 g     O .bss	00000004              __sds_debug_display_trace
+000056dc g     F .text	00000008              axi_lite_close
+00007cd0 g     F .text	000000d8              axi_dma_2d_recv_iov_i
+0000ac58 g     F .text	00000004              cf_xlnk_init
+00009bcc g     F .text	00000064              get_sw_cycle_count_for_function
+00009608 g     F .text	000000c8              cf_get_current_context
+00005f30 g     F .text	00000008              axi_fifo_recv_ref
+00003cbc g     F .text	00000004              sds_alloc
+000096f8 g     F .text	00000054              list_new
+000095cc g     F .text	00000004              pfm_hook_shutdown
+0000768c g     F .text	0000022c              axi_dma_2d_send2d_i
+0000cee8 g     F .text	00000020              xlnkRemoteMemoryHandlerEnabled
+0000767c g     F .text	00000008              axi_dma_2d_recv_ref_i
+00009f4c g     F .text	000000bc              sds_trace
+000236f4 g     O .bss	00000004              xlnkReleaseHwHandler
+00003cc4 g     F .text	00000008              sds_alloc_non_cacheable
+00000000  w      *UND*	00000000              _ITM_registerTMCloneTable
+00003e4c g     F .text	00000008              cf_getbuf_i
+00004a74 g     F .text	0000024c              cf_util_send_iov
+00009cf0 g     F .text	000001ac              trace_list_add
+00003fa4 g     F .text	00000008              cf_set_trace_wait_tag
+00003e74 g     F .text	000000b8              cf_receive_2d_i
+0000dae4 g     F .text	00000074              xlnkGetGlobalCounter
+000097f8 g     F .text	00000064              list_append
+00006254 g     F .text	00000028              zero_copy_close
+00009ec8 g     F .text	00000064              _sds_trace_log_HW
+0000c828 g     F .text	00000028              xlnkCmdAccConfig
+00005134 g     F .text	0000018c              axi_dma_sg_recv_i
+0000ac5c g     F .text	00000074              xlnkMmap
+00003e5c g     F .text	00000008              cf_addressable_map
+00009c30 g     F .text	00000064              get_sw_entry_count_for_function
+00000000       F *UND*	00000000              close@@GLIBC_2.4
+00008254 g     F .text	00000058              accel_wait
+00003f34 g     F .text	00000010              cf_release_ref
+0000512c g     F .text	00000008              axi_dma_sg_recv_ref
+0000c880 g     F .text	00000098              xlnkMemoryAcquire
+0000435c g     F .text	00000078              cf_receive_2d
+000090a0 g     F .text	0000002c              xlnk_get_config
+00000000       F *UND*	00000000              backtrace_symbols_fd@@GLIBC_2.4
+000041d4 g     F .text	00000038              cf_send_iov
+00000000       F *UND*	00000000              __assert_fail@@GLIBC_2.4
+0000cc6c g     F .text	00000130              xlnkRegisterRemoteMemoryTransfer
+
+
